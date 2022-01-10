@@ -1,0 +1,30 @@
+-----INPUT-----
+
+Nhap Ma Phieu: PH001
+Nhap MSV: B20DCCN457
+Nhap Ten SV: NGUYEN PHUONG NAM
+Nhap Ma Hoc Phan: IT001
+Nhap Ten Hoc Phan: LTHDT
+Nhap So Tin Chi: 3
+Nhap Hoc Phi: 15000
+Ngay Bat Dau: 13/02/2022
+Nhap Ma Hoc Phan: IT002
+Nhap Ten Hoc Phan: LHC++
+Nhap So Tin Chi: 2
+Nhap Hoc Phi: 10000
+Ngay Bat Dau: 26/02/2022
+Nhap Ma Hoc Phan: IT003
+Nhap Ten Hoc Phan: LTPHP
+Nhap So Tin Chi: 4
+Nhap Hoc Phi: 20000
+Ngay Bat Dau: 16/02/2022
+
+-----OUTPUT-----
+HOC VIEN CONG NGHE BUU CHINH VIEN THONG
+Ma Phieu: PH001 ----- Ma SV: B20DCCN457
+Ho va ten: NGUYEN PHUONG NAM
+IT003 -- LTPHP -- 4 -- 20000 -- 16/02/2022
+IT001 -- LTHDT -- 3 -- 15000 -- 13/02/2022
+IT002 -- LHC++ -- 2 -- 10000 -- 26/02/2022
+Tong So Tin Chi: 9
+Tong Hoc Phi: 45000

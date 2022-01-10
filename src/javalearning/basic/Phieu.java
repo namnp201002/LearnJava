@@ -1,9 +1,8 @@
 package javalearning.basic;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class Phieu extends Info{
-    private List<Info> TT = new ArrayList();
+    private List<Info> listThongTin = new ArrayList();
     private String _maPhieu;
     private String _maSinhVien;
     private String _tenSinhVien;
@@ -25,14 +24,25 @@ public class Phieu extends Info{
             A.nhapTT();
             this._tongSoTinChi += A.get_soTinChi();
             this._tongHocPhi += A.get_hocPhi();
-            TT.add(A);
+            listThongTin.add(A);
         }
     }
     public void xuatThongTin(){
+        System.out.println("HOC VIEN CONG NGHE BUU CHINH VIEN THONG");
         System.out.println("Ma Phieu: " + this._maPhieu + " ----- Ma SV: " + this._maSinhVien);
         System.out.println("Ho va ten: " + this._tenSinhVien);
         for(int i = 0; i < 3; i++){
-            TT.get(i).xuatTT();
+            listThongTin.get(i).xuatTT();
         }
+        System.out.println("Tong So Tin Chi: " + this._tongSoTinChi);
+        System.out.println("Tong Hoc Phi: " + this._tongHocPhi);
+    }
+    public void sapXepTheoHocPhi(){
+        Collections.sort(listThongTin, new Comparator<Info>() {
+            @Override
+            public int compare(Info o1, Info o2) {
+                return o2.get_hocPhi() - o1.get_hocPhi();
+            }
+        });
     }
 }

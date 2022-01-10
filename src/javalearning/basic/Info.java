@@ -9,9 +9,7 @@ public class Info {
 
     Scanner input = new Scanner(System.in);
 
-    public String get_maHocPhan() {
-        return this._maHocPhan;
-    }
+    public String get_maHocPhan() { return this._maHocPhan; }
 
     public String get_tenHocPhan() {
         return this._tenHocPhan;
