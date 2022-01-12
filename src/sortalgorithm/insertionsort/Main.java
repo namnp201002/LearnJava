@@ -31,5 +31,12 @@ public class Main {
         int[] array = {5, 2, 4, 8, 7, 9, 3};
         insertionSort(array);
     }
-
 }
+/*
+        Step 1: 2 5 4 8 7 9 3
+        Step 2: 2 4 5 8 7 9 3
+        Step 3: 2 4 5 8 7 9 3
+        Step 4: 2 4 5 7 8 9 3
+        Step 5: 2 4 5 7 8 9 3
+        Step 6: 2 3 4 5 7 8 9
+ */
