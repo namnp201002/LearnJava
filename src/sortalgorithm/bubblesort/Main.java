@@ -32,3 +32,10 @@ public class Main {
         bubbleSort(array);
     }
 }
+/*
+        Step 1: 2 4 5 7 8 3 9
+        Step 2: 2 4 5 7 3 8 9
+        Step 3: 2 4 5 3 7 8 9
+        Step 4: 2 4 3 5 7 8 9
+        Step 5: 2 3 4 5 7 8 9
+ */
